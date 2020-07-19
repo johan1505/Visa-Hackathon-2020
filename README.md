@@ -25,8 +25,8 @@ Something important to note is that Visa MobilePOS does not interact with custom
 The flow a merchant would follow to process a transaction is described in the following steps:
 
 1. Merchant enters the transaction amount and presses the start transaction button
-2. App waits for customer to send tokenized card data from his/her mobile wallet
-3. Once the app receives tokenized card data, it proceeds to submit the transaction
+2. App waits for customer to send tokenized card data from his/her mobile wallet (i.e. customer places his/her phone next to the merchant's phone where the app is installed)
+3. Once the app receives tokenized card data using NFC, it proceeds to submit the transaction
 4. Merchant is redirected to a new screen that shows the status of the transaction and the amount that was processed
 5. Merchant can review a history of transactions processed using the app
 
